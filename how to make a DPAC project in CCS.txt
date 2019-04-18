@@ -1,0 +1,23 @@
+
+Right now we are using launchpad as on-board processor is not booting up
+We will use the CCS software to program the launchpad.
+Download the software from here : http://www.ti.com/tool/CCSTUDIO
+
+
+Download the c2000 zip file from here: http://www.ti.com/tool/download/c2000ware
+s
+See the user guide to add project to ccs and for making a target config file
+The pdf file can be found here: C2000Ware_1_00_06_00\device_support\f2806x\docs
+
+The project path is as follows: C2000Ware_1_00_06_00\device_support\f2806x\examples\c28\adc_soc
+
+Add the file F2806x_Spi.c from the spi_loopback project
+path for that file is C2000Ware_1_00_06_00\device_support\f2806x\common\source
+
+
+now we need to replace the Example_2806xAdcSoc.c with the codes from dpac_codes according to the equation you want to solve
+
+Now, build, debug and enjoy !!!
+
+
+
