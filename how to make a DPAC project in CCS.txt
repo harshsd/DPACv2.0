@@ -5,7 +5,7 @@ Download the software from here : http://www.ti.com/tool/CCSTUDIO
 
 
 Download the c2000 zip file from here: http://www.ti.com/tool/download/c2000ware
-s
+
 See the user guide to add project to ccs and for making a target config file
 The pdf file can be found here: C2000Ware_1_00_06_00\device_support\f2806x\docs
 
